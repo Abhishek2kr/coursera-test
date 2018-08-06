@@ -1,0 +1,130 @@
+ *{
+    box-sizing: border-box;
+   }
+  
+    .row{
+      width: 100%;
+     /* border: 2px solid green;*/
+    }
+
+   h1{
+      text-align: center;
+    }
+
+
+    div.box1{
+      border: 2px solid black;
+      position: relative;
+      width: 99%;
+      margin: 5px;
+      float: left;
+      background-color: grey;
+      padding: 10px;
+      
+    }
+    div.subbox1{
+      width: 30%;
+      border: 2px solid black;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #E9967A;
+      border-top: none;
+      border-right: none;
+      text-align: center;
+    }
+
+    div.box2{
+      border: 2px solid black;
+      position: relative;
+      width: 99%;
+      margin: 5px;
+      float: left;
+      background-color: grey;
+      padding: 10px;     
+    }
+    div.subbox2{
+      width: 30%;
+      border: 2px solid black;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #F08080;
+      border-top: none;
+      border-right: none;
+      text-align: center;
+    }
+
+    div.box3{
+      border: 2px solid black;
+      position: relative;
+      width: 99%;
+      margin: 5px;
+      float: left;
+      background-color: grey;
+      padding: 10px;
+    }
+    div.subbox3{
+      width: 30%;
+      border: 2px solid black;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #FFDEAD;
+      border-top: none;
+      border-right: none;
+      text-align: center;
+    }
+
+@media (min-width: 992px){
+    div.box1{
+      width: 32.3%;
+      float: left;
+    }
+
+    div.box2{
+      width: 32.3%;
+      float: left;
+    }
+
+    div.box3{
+      width: 32.3%;
+      float: left;
+      
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    div.box1{
+      width: 48.65%;
+      float: left;
+      
+    }
+    div.box2{
+      width: 48.65%;
+      float: left;
+
+    }
+    div.box3{
+      width: 99%;
+      float: left;
+
+    }
+}
+
+@media (max-width: 766px){
+    div.box1{
+      width: 99%;
+      float: left;
+  
+    }
+    div.box2{
+      width: 99%;
+      float: left;
+  
+    }
+    div.box3{
+      width: 99%;
+      float: left;
+    }
+
