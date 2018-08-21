@@ -45,12 +45,21 @@ button.navbar-toggle{
 	font-size: 20px;	
 }
 
-#chicken{
+.row .chicken{
 	background-color: #C0C0C0;
     margin: 5px;
-
+    padding: auto;
+    margin:auto;
 }
-
+.row #chicken1{
+  background-color: lightgreen;
+}
+.row #chicken2{
+  background-color: lightblue;
+}
+.row #chicken3{
+  background-color: lightgrey;
+}
 
 @media(min-width: 1200){
    .col-md-4{
