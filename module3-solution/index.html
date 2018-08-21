@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,91 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
-
-  <nav class="navbar navbar-default navbar-static-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#food-navbar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Food, LLC</a>
+<header>
+  <nav id="header-nav"class="navbar navbar-default">
+  <div class="container">
+     <h1>Food, LLC</h1>
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active text-center">
+                  <a href="#Chicken">Chicken</a></li>
+               
+              <li class="visible-xs active text-center"><a href="#Beef">Beef</a></li>
+              
+              <li class="visible-xs active text-center"><a href="#Sushi">Sushi</a></li>
+          </ul>
       </div>
-      <div class="collapse navbar-collapse" id="food-navbar">
-        <ul class="nav navbar-nav visible-xs text-center">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <h1 class="text-center">Our Menu</h1>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12">
-        <h4 class="text-center">Chicken</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pretium magna elit, vitae aliquet enim ultricies vitae. Nullam interdum elit nisl, eget pretium mi varius non. Nulla sit amet tortor eu mauris gravida porttitor non a eros. Aliquam erat volutpat. Maecenas porttitor turpis ex, eu dignissim arcu commodo vitae. Curabitur eu nisi libero. Cras eget lobortis tellus. Nunc laoreet dui a nunc placerat interdum. Etiam feugiat lacus a eros porta tincidunt. Cras elementum felis sed ante mollis tincidunt. Fusce id scelerisque mauris. Vivamus sed faucibus dui.
-
-Quisque maximus leo vitae nibh tincidunt, sit amet auctor tortor varius. Duis porta placerat tellus. Donec vel arcu tellus. Donec euismod facilisis lacus et egestas. Duis tincidunt pulvinar dui, ut lacinia sem viverra in. Nunc in pellentesque magna, id elementum dui. Mauris vitae arcu nulla. Proin fringilla libero sed justo blandit ullamcorper.
-
-Fusce non mi consectetur, dictum eros cursus, ultricies libero. Proin tempor ipsum eget velit vehicula aliquam et vulputate velit. Mauris nunc eros, ultricies quis efficitur quis, gravida ac ante. Duis sed enim id elit consectetur pellentesque. Pellentesque tempor nisl tincidunt, maximus quam id, fringilla massa. Nulla facilisi. Quisque lectus elit, luctus et finibus et, tempus vel enim. Etiam id vehicula ante, id malesuada velit.
-
-Sed sem justo, tristique eget ligula sed, accumsan feugiat erat. Etiam pharetra mattis ante, eget blandit elit sollicitudin vitae. Proin in mollis odio. Phasellus faucibus suscipit lectus, vitae volutpat tellus. Ut pulvinar velit felis, id dapibus nisi tristique non. Ut vel nulla nec eros luctus pharetra. Nulla tincidunt iaculis quam, sed aliquam tellus bibendum congue. Nullam nec volutpat quam. Nullam rhoncus urna quam, in luctus dui suscipit non. Nulla id urna sed dui gravida viverra. Ut gravida congue lectus, vitae tempus leo luctus sit amet. Nullam tincidunt diam et condimentum pharetra. Suspendisse suscipit non dolor nec tempor. Donec vel nulla at neque porta efficitur. Phasellus porttitor sem felis.
-
-Nulla facilisi. Cras volutpat molestie lorem vel hendrerit. Fusce eget ante nisl. Donec facilisis consectetur venenatis. Proin vitae dui sit amet quam eleifend euismod. Pellentesque mattis fringilla laoreet. Suspendisse finibus nisl neque, eu interdum ante iaculis ac. Cras at ullamcorper lectus. Maecenas mi lorem, euismod at placerat et, ullamcorper eget risus. Quisque velit tortor, pretium quis vehicula vel, condimentum eu felis. Nam ullamcorper a ante eget tempor. Vestibulum sed interdum leo. Quisque ac iaculis tellus. Aliquam ornare, tortor accumsan venenatis euismod, tortor velit maximus nisl, ac blandit tellus nisl pharetra lorem. Vivamus condimentum sem eget condimentum eleifend. Suspendisse tincidunt felis elit, id convallis enim laoreet vel.
-
-Aliquam efficitur faucibus magna ut luctus. Integer quis mauris ac eros efficitur porta. Maecenas blandit tempor lobortis. Morbi sit amet varius sapien. Sed massa nunc, porta vel est at, mattis imperdiet leo. Nunc ullamcorper ex tellus, sed lobortis urna fringilla sit amet. Praesent est nunc, tincidunt cursus erat vitae, porta elementum felis. Duis molestie mi et mauris dapibus, vitae dignissim lorem tempus. Donec condimentum dapibus dolor, a laoreet nunc ultrices vel. Nam lacinia efficitur velit. Nunc dui odio, consequat in tristique nec, pulvinar at odio. Vivamus sagittis risus magna, in fringilla urna dignissim et. Curabitur sed lacus felis. Nunc et laoreet libero. In mattis sed eros ut tincidunt.
-
-Vestibulum rutrum, elit vel eleifend elementum, velit odio rutrum velit, ac consectetur urna arcu at ante. Etiam porttitor quam ac vestibulum tincidunt. In vitae nulla vitae ipsum efficitur molestie. Aliquam placerat dolor ut quam imperdiet condimentum. Praesent interdum mauris venenatis dolor molestie, et euismod sapien eleifend. Integer elementum, risus ut hendrerit lobortis, nibh felis pharetra justo, sagittis suscipit augue magna dictum sem. Quisque quis diam vel sem vehicula condimentum. Pellentesque nec augue vestibulum, fermentum ipsum ac, fermentum dolor.
-
-Etiam vitae commodo tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut et arcu commodo, consectetur lectus id, elementum nibh. Proin non quam quis libero porta tristique. Proin erat orci, facilisis id porttitor id, faucibus at eros. Aenean rutrum felis at sapien tempor sodales. Quisque porttitor malesuada sem, non pretium ante mollis non. In dolor metus, congue in volutpat sit amet, sollicitudin eu neque. Donec semper tellus odio, sed lobortis nisl ullamcorper quis. Ut eget faucibus justo, ut molestie nunc. Duis nec nibh a urna varius lobortis id non diam. Donec vulputate eros nec arcu convallis fringilla. Curabitur eget elementum leo. Donec et urna et erat sodales auctor varius sit amet quam.
-
-Aenean in nibh vitae nunc porta malesuada non ac est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec aliquam eros, eu pellentesque lectus. Donec vel gravida nisl. Fusce vel tortor id turpis tempus feugiat quis et nulla. Aliquam erat volutpat. Suspendisse pulvinar metus non consectetur pharetra. Ut pellentesque elit vitae tellus efficitur convallis. Nunc ac maximus ante.
-
-Nunc id faucibus urna. Praesent molestie consequat nisl, at iaculis enim pulvinar ac. Suspendisse egestas diam sit amet dictum lacinia. Suspendisse ullamcorper mollis consequat. Aliquam nec pulvinar ipsum. Suspendisse dictum finibus tempor. Mauris nec porta sem. Ut accumsan diam ex. Cras molestie varius leo et ullamcorper. Fusce vitae sapien nunc. Aliquam erat volutpat. Phasellus scelerisque vehicula porttitor.
-
-Aliquam quis tellus vitae massa porttitor venenatis sit amet a felis. Cras gravida accumsan purus et aliquet. In vel lobortis dolor. Vivamus sit amet luctus odio. In ac nunc tellus. Ut non enim id sem blandit feugiat. Integer ut turpis vel magna commodo porttitor. Aliquam ante purus, laoreet in ligula non, efficitur eleifend magna. Mauris vel risus lacinia, rutrum urna gravida, gravida elit.
-
-Vivamus ultrices, justo vel porttitor malesuada, mi purus mattis nunc, eget vulputate risus erat eu lacus. Suspendisse sed interdum lacus, ut maximus neque. Phasellus ante erat, suscipit sit amet suscipit sit amet, dapibus aliquet urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris dolor massa, congue eu faucibus feugiat, suscipit eget risus. Maecenas elit augue, congue eget neque a, viverra congue metus. Ut a sollicitudin nibh, quis tincidunt libero. Vestibulum tristique congue ligula suscipit euismod. Vivamus efficitur laoreet ex eu ultrices. Aenean elementum nibh vel orci pharetra, sit amet volutpat neque fringilla. Nulla iaculis luctus vulputate. Etiam diam augue, lobortis maximus quam quis, egestas sagittis purus. Sed id ipsum non tortor vestibulum hendrerit id ut nulla. Donec luctus libero a nunc laoreet, sed ullamcorper mi blandit. Mauris ac sagittis enim, eu viverra neque.
-
-Mauris eget ligula id tellus facilisis pulvinar at pellentesque ex. Donec nec fringilla ligula. Mauris tincidunt arcu sed varius tempor. Nulla sit amet condimentum elit. Quisque luctus est at leo pharetra commodo. Nunc vitae nisl ultrices, rhoncus lacus at, iaculis leo. Etiam pharetra quis magna at imperdiet. Phasellus posuere lorem vel ante sollicitudin, auctor congue sem lobortis. Integer ullamcorper purus eu feugiat dapibus. Pellentesque eleifend consequat odio, at blandit lacus consectetur ut. Mauris auctor porta nulla, accumsan imperdiet risus rutrum et. Morbi vestibulum enim et posuere lobortis. Fusce eget ante at ipsum tincidunt imperdiet et eget diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Mauris volutpat rhoncus odio, vel euismod mi accumsan in. Curabitur sed accumsan purus. Vivamus vitae lectus at lacus rutrum facilisis. Maecenas commodo, risus eu rhoncus blandit, massa massa pulvinar augue, non facilisis ligula libero non erat. Morbi eleifend, sapien eu aliquet facilisis, urna ligula pretium ante, non egestas risus lectus in orci. Proin vestibulum libero sit amet elit eleifend vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed suscipit tristique nibh a venenatis. Cras ornare enim quis auctor tempor. Duis elementum, enim sed gravida tempus, risus augue rhoncus odio, in vulputate velit nisl sed libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vestibulum sed quam sed tincidunt. Aliquam aliquam, sapien nec lobortis pellentesque, turpis ante maximus justo, ut dapibus enim diam nec ante. Duis porttitor felis sed tincidunt dignissim. Duis eu ipsum sodales, placerat velit quis, mattis felis. Integer id consequat erat.
-
-Donec ut ante id tellus dignissim aliquet at ut ipsum. Sed finibus nisl ut purus dignissim, eu eleifend ante mattis. Donec orci ex, varius et accumsan a, aliquet vel eros. Etiam fringilla nulla nisl, id laoreet urna malesuada id. Ut sodales nulla urna. Proin ut nisl semper, scelerisque dui id, consequat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin viverra metus tortor, at gravida erat accumsan sit amet. Sed vitae nibh augue. Sed imperdiet lacinia fermentum.
-
-Nulla tristique sodales faucibus. Fusce vestibulum et erat quis laoreet. Vivamus eu elit neque. Integer faucibus justo sed ligula gravida scelerisque. In hac habitasse platea dictumst. Phasellus ut justo a magna ornare posuere. Sed tristique pulvinar massa quis condimentum. Curabitur eu lectus a lectus vestibulum interdum ut id quam. Ut metus felis, luctus nec eros vel, scelerisque dictum lectus. Donec auctor sapien ac scelerisque mollis. Proin sem felis, interdum eu mollis ac, ultrices eget mauris.
-
-Integer vel lorem nec velit iaculis consequat. Curabitur in mi vel quam malesuada ultricies. Maecenas fringilla sem enim, in pulvinar justo facilisis in. Sed rutrum magna sit amet nunc malesuada, blandit fermentum massa mollis. Phasellus mi felis, pulvinar nec lorem nec, convallis maximus nisl. Pellentesque accumsan nulla eu sagittis ultrices. Suspendisse semper hendrerit elit, consectetur egestas erat tempus et. Pellentesque in ultrices velit, eget euismod tortor. Aliquam fermentum cursus scelerisque.
-
-Nulla facilisi. Mauris fermentum, tortor nec euismod tincidunt, leo arcu auctor neque, at ultrices leo ligula in leo. Etiam nec magna lacus. Etiam tempus, ante eu efficitur euismod, velit magna condimentum erat, sit amet aliquet magna elit sed magna. Aenean vehicula, ex id congue maximus, diam diam ultricies sapien, et pulvinar purus tellus nec quam. Donec fermentum felis vitae vehicula pellentesque. Duis ultricies tincidunt elit fringilla vehicula. Nullam eget aliquam massa, non euismod velit. Curabitur dignissim dictum sem, eget gravida lectus sodales sit amet. Proin tristique bibendum dui, ut fermentum ipsum laoreet sit amet. Nulla facilisi. Ut ultricies nisl id rhoncus blandit.
-
-
-        </p>
-      </div>
-    </div>
   </div>
+</nav>
+</header>
+
+<div class="main-content container">
+        <h2 id="our-menu"; class="text-center">Our Menu</h2>
+        <div class="row">
+          <section id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+              <div id="chicken-title" class="text-center">Chicken 1</div>    
+            <p id="chicken-para">
+                 The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.[1] Humans keep chickens primarily as a source of food (consuming both their meat and eggs) and, less commonly, as pets. Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (fourth–second centuries BCE).[2][3]
+
+              Genetic studies have pointed to multiple maternal origins in Southeast Asia, East Asia,[4] and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[5] Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
+              In the UK and Ireland, adult male chickens over the age of one year are primarily known as cocks, whereas in the United States, Canada, Australia and New Zealand, they are more commonly called roosters. Males less than a year old are cockerels.[9] Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens, and younger females as pullets,[10] although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs, at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /tʃʊk/ to describe all ages and both sexes.[11] The young are often called chicks.
+
+              "Chicken" originally referred to young domestic fowl.[12] The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation, and the term “rooster” for males being that most commonly used.
+
+              In the Deep South of the United States, chickens are also referred to by the slang term yardbird.[13]
+              Chickens are omnivores.[14] In the wild, they often scratch at the soil to search for seeds, insects and even animals as large as lizards, small snakes or young mice.[15]
+
+              The average chicken may live for five to ten years, depending on the breed.[16] The world's oldest known chicken was a hen which died of heart failure at the age of 16 years according to the Guinness World Records.[17]
+
+              Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+            </p>    
+
+          </section>
+
+          <section id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+            <div id="chicken-title" class="text-center">Chicken 2 </div>      
+            <p id="chicken-para">
+                 The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.[1] Humans keep chickens primarily as a source of food (consuming both their meat and eggs) and, less commonly, as pets. Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (fourth–second centuries BCE).[2][3]
+
+              Genetic studies have pointed to multiple maternal origins in Southeast Asia, East Asia,[4] and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[5] Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
+              In the UK and Ireland, adult male chickens over the age of one year are primarily known as cocks, whereas in the United States, Canada, Australia and New Zealand, they are more commonly called roosters. Males less than a year old are cockerels.[9] Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens, and younger females as pullets,[10] although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs, at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /tʃʊk/ to describe all ages and both sexes.[11] The young are often called chicks.
+
+              "Chicken" originally referred to young domestic fowl.[12] The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation, and the term “rooster” for males being that most commonly used.
+
+              In the Deep South of the United States, chickens are also referred to by the slang term yardbird.[13]
+              Chickens are omnivores.[14] In the wild, they often scratch at the soil to search for seeds, insects and even animals as large as lizards, small snakes or young mice.[15]
+
+              The average chicken may live for five to ten years, depending on the breed.[16] The world's oldest known chicken was a hen which died of heart failure at the age of 16 years according to the Guinness World Records.[17]
+
+              Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+
+            </p>
+          </section>
+
+          <section id="chicken" class="col-md-4 col-sm-12 col-xs-12">
+              <div id="chicken-title" class="text-center">Chicken 3</div>      
+              <p id="chicken-para">
+                   The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. There are more chickens in the world than any other bird or domesticated fowl.[1] Humans keep chickens primarily as a source of food (consuming both their meat and eggs) and, less commonly, as pets. Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (fourth–second centuries BCE).[2][3]
+
+                Genetic studies have pointed to multiple maternal origins in Southeast Asia, East Asia,[4] and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC.[5] Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
+                In the UK and Ireland, adult male chickens over the age of one year are primarily known as cocks, whereas in the United States, Canada, Australia and New Zealand, they are more commonly called roosters. Males less than a year old are cockerels.[9] Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens, and younger females as pullets,[10] although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs, at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /tʃʊk/ to describe all ages and both sexes.[11] The young are often called chicks.
+
+                "Chicken" originally referred to young domestic fowl.[12] The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation, and the term “rooster” for males being that most commonly used.
+
+                In the Deep South of the United States, chickens are also referred to by the slang term yardbird.[13]
+                Chickens are omnivores.[14] In the wild, they often scratch at the soil to search for seeds, insects and even animals as large as lizards, small snakes or young mice.[15]
+
+                The average chicken may live for five to ten years, depending on the breed.[16] The world's oldest known chicken was a hen which died of heart failure at the age of 16 years according to the Guinness World Records.[17]
+
+                Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+
+              </p>
+          </section>
+        </div>
+    </div><!-- Main container -->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-<script src="js/jquery-2.1.4.min.js"></script>
+ <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
